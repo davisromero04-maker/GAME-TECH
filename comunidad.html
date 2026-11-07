@@ -1,0 +1,350 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Noticias, consejos y novedades de la comunidad de videojuegos GAME & TECH.">
+
+    <title>GAME & TECH | Comunidad</title>
+
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+   
+    <style>
+
+        
+
+        .comunidad-banner {
+            background: linear-gradient(135deg, #241044, #102b48);
+            padding: 40px 30px;
+            border-radius: 14px;
+            text-align: center;
+            margin-bottom: 25px;
+            border: 1px solid #a855f7;
+        }
+
+        .comunidad-banner h2 {
+            color: #c084fc;
+            font-size: 30px;
+        }
+
+        .comunidad-banner p {
+            color: #f5f5f5;
+            max-width: 750px;
+            margin: 15px auto;
+        }
+
+        .comunidad-contenido {
+            display: flex;
+            gap: 20px;
+            align-items: stretch;
+            margin-bottom: 25px;
+        }
+
+        .noticia {
+            flex: 2;
+            background-color: #17172a;
+            padding: 20px;
+            border-radius: 14px;
+            border: 1px solid #343450;
+        }
+
+        .noticia img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .noticia h3 {
+            color: #38bdf8;
+            margin-bottom: 10px;
+        }
+
+        .consejos {
+            flex: 1;
+            background-color: #17172a;
+            padding: 25px;
+            border-radius: 14px;
+            border: 1px solid #343450;
+        }
+
+        .consejos ul {
+            padding-left: 20px;
+        }
+
+        .consejos li {
+            color: #b8b8ca;
+            margin-bottom: 12px;
+        }
+
+        .consejos li:nth-child(even) {
+            color: #38bdf8;
+        }
+
+        .esports {
+            background-color: #17172a;
+            padding: 25px;
+            border-radius: 14px;
+            margin-bottom: 25px;
+            border: 1px solid #343450;
+        }
+
+        .esports img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin: 15px 0;
+        }
+
+        .comunidad-enlaces a {
+            display: inline-block;
+            margin: 8px;
+            color: #c084fc;
+            font-weight: bold;
+        }
+
+        .comunidad-enlaces a:hover {
+            color: #38bdf8;
+            text-decoration: underline;
+        }
+
+        /* Adaptación para celulares */
+        @media (max-width: 600px) {
+
+            .comunidad-contenido {
+                flex-direction: column;
+            }
+
+            .comunidad-banner {
+                padding: 25px 15px;
+            }
+
+            .comunidad-banner h2 {
+                font-size: 24px;
+            }
+
+            .noticia img {
+                height: 190px;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+   
+    <header class="encabezado">
+
+        <h1>🎮 GAME & TECH</h1>
+
+        <p>Explora, aprende y comparte tu pasión por los videojuegos</p>
+
+        
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="comunidad.html">Comunidad</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    
+    <main>
+
+       
+        <section class="comunidad-banner">
+
+            <h2 style="text-shadow: 0 0 15px #a855f7;">
+    Bienvenido a nuestra comunidad gamer
+</h2>
+<img src="img/comunidad.jpg"
+     alt="Comunidad de jugadores compartiendo su pasión por los videojuegos"
+     class="imagen-comunidad">
+            <p>
+                Los videojuegos son mucho más que entretenimiento.
+                Representan creatividad, innovación, competencia y
+                conexión entre personas de diferentes lugares del mundo.
+            </p>
+
+            <p>
+                En GAME & TECH compartimos información, consejos y
+                novedades para los amantes de la tecnología y los videojuegos.
+            </p>
+
+            <a class="boton" href="catalogo.html">
+                Explorar productos gamer
+            </a>
+
+        </section>
+
+        
+        <section>
+
+            <h2>Noticias y consejos tecnológicos</h2>
+
+            <div class="comunidad-contenido">
+
+                <!-- NOTICIA -->
+                <article class="noticia">
+
+                    <img src="img/noticias.webp"
+                         alt="Computadora y tecnología para videojuegos"
+                         loading="lazy">
+
+                    <h3>La evolución de la tecnología en los videojuegos</h3>
+
+                    <p>
+                        Los videojuegos han evolucionado gracias a los
+                        avances en procesadores, tarjetas gráficas y
+                        almacenamiento. Actualmente, los equipos permiten
+                        disfrutar mundos virtuales con mayor detalle,
+                        iluminación y rendimiento.
+                    </p>
+
+                    <p>
+                        La inteligencia artificial, la realidad virtual
+                        y los gráficos avanzados continúan transformando
+                        la industria del entretenimiento digital.
+                    </p>
+
+                    <a href="https://www.nvidia.com/es-la/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Ver información tecnológica
+                    </a>
+
+                </article>
+
+                
+                <aside class="consejos">
+
+                    <h3>5 consejos para gamers</h3>
+
+                    <ul>
+                        <li>Mantén actualizados los controladores de tu computadora.</li>
+
+                        <li>Utiliza una buena conexión a Internet.</li>
+
+                        <li>Organiza descansos durante las sesiones de juego.</li>
+
+                        <li>Cuida y limpia tus dispositivos tecnológicos.</li>
+
+                        <li>Configura los gráficos según la capacidad de tu equipo.</li>
+                    </ul>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+       
+        <section class="esports">
+
+            <h2>El mundo de los deportes electrónicos</h2>
+
+            <img src="img/esports.webp"
+                 alt="Competencia de videojuegos y deportes electrónicos"
+                 loading="lazy">
+
+            <p>
+                Los deportes electrónicos, conocidos como esports,
+                son competiciones organizadas de videojuegos en las
+                que jugadores individuales o equipos demuestran sus
+                habilidades y estrategias.
+            </p>
+
+            <p>
+                Juegos como League of Legends, Counter-Strike 2,
+                Valorant y Fortnite cuentan con comunidades competitivas
+                en diferentes partes del mundo.
+            </p>
+
+            <a href="https://www.esports.net/"
+               target="_blank"
+               rel="noopener noreferrer">
+                Conocer más sobre esports
+            </a>
+
+        </section>
+
+        
+        <section class="presentacion">
+
+            <h2>Videojuegos que debes conocer</h2>
+
+            <p>
+                Algunos videojuegos se han convertido en referentes
+                de la industria por sus gráficos, historias,
+                comunidades y modos competitivos.
+            </p>
+
+            <div class="comunidad-enlaces">
+
+                <a href="https://www.minecraft.net/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Minecraft
+                </a>
+
+                <a href="https://www.leagueoflegends.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    League of Legends
+                </a>
+
+                <a href="https://www.fortnite.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Fortnite
+                </a>
+
+                <a href="https://www.ea.com/games/ea-sports-fc"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    EA SPORTS FC
+                </a>
+
+            </div>
+
+        </section>
+
+        
+        <section class="invitacion">
+
+            <h2>¡La aventura gamer continúa!</h2>
+
+            <p>
+                Explora nuestro catálogo y descubre productos
+                tecnológicos que pueden mejorar tu experiencia.
+            </p>
+
+            <a class="boton" href="index.html">
+                Volver al inicio
+            </a>
+
+        </section>
+
+    </main>
+
+    
+    <footer class="pie">
+
+        <p>&copy; 2026 GAME & TECH - Tecnología y videojuegos.</p>
+
+
+    </footer>
+
+</body>
+</html>
